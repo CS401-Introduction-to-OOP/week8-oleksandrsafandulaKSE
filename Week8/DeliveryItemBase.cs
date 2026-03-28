@@ -19,7 +19,7 @@ public abstract class DeliveryItemBase
 
     public DeliveryItemBase(string trackingNumber, double weight)
     {
-        TrackingNumber = _trackingNumber;
+        TrackingNumber = trackingNumber;
         Weight = weight;
     }
 
